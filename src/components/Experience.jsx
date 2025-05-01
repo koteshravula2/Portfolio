@@ -1,23 +1,16 @@
 function ExperienceSection() {
     const experiences = [
       {
-        role: "Software Engineer",
+        role: "Jr. Software Engineer",
         company: "Cognizant Technology Solutions",
-        period: "Dec 2021 – Mar 2023",
+        period: "Aug 2021 – Mar 2023",
         details:
           "Worked on the backend billing system for Verizon. Designed scalable APIs and contributed to billing architecture improvements that supported millions of transactions."
       },
       {
-        role: "Software Engineer",
-        company: "Verizon",
-        period: "Mar 2023 – May 2024",
-        details:
-          "Assisted in Embedded Systems and Digital Design courses. Conducted lab sessions, guided students in Verilog projects, and graded assignments."
-      },
-      {
         role: "Software Developer",
         company: "Kore.ai",
-        period: "Jun 2025 – Present",
+        period: "Aug 2023 – Present",
         details:
           "Contributing to frontend modules in React and helping optimize REST API integrations. Assisting in building scalable dashboards."
       }

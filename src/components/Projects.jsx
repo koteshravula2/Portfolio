@@ -1,24 +1,18 @@
 function ProjectsSection() {
   const projects = [
     {
-      title: "Full-Stack Web App with Docker and AWS",
+      title: "Cricket Score Predictor using Machine Learning",
       description:
-        "Developed a full-stack web app with user login, dashboards, and REST APIs. Dockerized and deployed on AWS EC2 using Nginx reverse proxy.",
-      image: "/project1.png", // Add image file here
-      link: "https://github.com/yourusername/fullstack-docker-aws"
-    },
-    {
-      title: "Cricket Score Predictor using ML",
-      description:
-        "Trained a regression model in Python to predict cricket scores. Visualized results with Streamlit and deployed on localhost.",
-      image: "/project2.png",
+        "Developed a machine learning regression model to predict cricket team scores using key match inputs (runs, wickets, overs). Applied feature engineering, EDA, and trained models including Random Forest, Decision Tree, Linear Regression, and SVM. Evaluated performance using MAE, MSE, RMSE, and deployed the best model (Random Forest) with data visualizations for real-time prediction insights."
+,
+      image: "/Cricket.jpg",
       link: "https://github.com/yourusername/cricket-score-predictor"
     },
     {
       title: "IoT Anomaly Detection System",
       description:
-        "Built an IoT pipeline using MQTT and Node.js to detect abnormal sensor readings. Implemented real-time alerts with web dashboard.",
-      image: "/project3.png",
+        "Built an IoT intrusion detection system using supervised machine learning classifiers like Random Forest, SVM, Logistic Regression, Decision Tree, and Artificial Neural Networks (ANN). Processed a dataset of 357,000+ samples with feature selection, vectorization, and label encoding. Classified 8 attack types and evaluated models using precision, recall, F1 score, and ROC curve, improving anomaly detection accuracy and IoT network security.",
+      image: "/IOT Sensor.jpg",
       link: "https://github.com/yourusername/iot-anomaly-detection"
     }
   ];
@@ -29,7 +23,7 @@ function ProjectsSection() {
           <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-10">
             Projects
           </h2>
-          <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
             {projects.map((project, index) => (
               <div
                 key={index}
