@@ -9,7 +9,7 @@ function ExperienceSection() {
       },
       {
         role: "Software Developer",
-        company: "Kore.ai",
+        company: "JCPenney",
         period: "Aug 2023 – Present",
         details:
           "Contributing to frontend modules in React and helping optimize REST API integrations. Assisting in building scalable dashboards."

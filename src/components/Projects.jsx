@@ -12,7 +12,7 @@ function ProjectsSection() {
       title: "IoT Anomaly Detection System",
       description:
         "Built an IoT intrusion detection system using supervised machine learning classifiers like Random Forest, SVM, Logistic Regression, Decision Tree, and Artificial Neural Networks (ANN). Processed a dataset of 357,000+ samples with feature selection, vectorization, and label encoding. Classified 8 attack types and evaluated models using precision, recall, F1 score, and ROC curve, improving anomaly detection accuracy and IoT network security.",
-      image: "/IOT Sensor.jpg",
+      image: "/IOT_Sensor.jpg",
       link: "https://github.com/yourusername/iot-anomaly-detection"
     }
   ];
