@@ -22,7 +22,7 @@ function Hero() {
                 View Projects
               </a>
               <a
-                href="/Kotesh_Resume.pdf"
+                href="/KoteshResumePortfolio.pdf"
                 target="_blank"
                 className="border border-blue-600 text-blue-600 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition"
               >
