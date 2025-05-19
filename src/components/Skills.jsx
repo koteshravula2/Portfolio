@@ -10,19 +10,27 @@ function SkillsSection() {
     { name: "Git", icon: <i className="text-2xl">🔧</i> },
     { name: "MongoDB", icon: <i className="text-2xl">🍃</i> },
     { name: "Docker", icon: <i className="text-2xl">🐳</i> },
+    { name: ".NET", icon: <i className="text-2xl">🧩</i> },
+    { name: "C#", icon: <i className="text-2xl"></i> },
+    { name: "DevOps", icon: <i className="text-2xl">⚙</i> },
+    { name: ".NET", icon: <i className="text-2xl">🧩</i> },
+    { name: "HTML", icon: <i className="text-2xl">⿪</i> },
+    { name: "CSS", icon: <i className="text-2xl">𖦹</i> },
+        { name: "Bootstrap", icon: <i className="text-2xl">☆</i> },
+    { name: "JavaScript", icon: <i className="text-2xl">✦</i> },
   ];
 
   const duplicatedSkills = [...skills, ...skills]; // smooth looping
 
   return (
     <section id="skills" className="py-16 bg-white dark:bg-gray-900 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
           Skills & Technologies
         </h2>
 
         <div className="relative overflow-hidden">
-          <div className="flex w-max animate-custom-scroll gap-6">
+          <div className="flex w-max scroll-animation gap-6">
             {duplicatedSkills.map((skill, index) => (
               <div
                 key={index}
@@ -39,4 +47,4 @@ function SkillsSection() {
   );
 }
 
-export default SkillsSection;
+export default SkillsSection;

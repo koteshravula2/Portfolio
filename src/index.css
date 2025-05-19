@@ -80,3 +80,32 @@ button:focus-visible {
 .animate-custom-scroll {
   animation: scrollX 20s linear infinite;
 }
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out both;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out both;
+}

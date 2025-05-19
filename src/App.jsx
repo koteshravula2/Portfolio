@@ -10,19 +10,22 @@ import ExperienceSection from './components/Experience';
 import EducationSection from './components/Education';
 import ProjectsSection from './components/Projects';
 import Footer from './components/Footer';
-
-
+import ScrollToTop from './components/ScrollToTop';
+import ContactSection from './components/ContactSection';
 function App() {
   return (
     <div className="font-sans">
       <Header />
       <Hero />
       <About />
-      <SkillsSection />
+      {/* <SkillsSection /> */}
       <ExperienceSection />
       <EducationSection />
       <ProjectsSection />
+      <ContactSection />
       <Footer />
+      <ScrollToTop /> 
+      
     </div>
     
   );

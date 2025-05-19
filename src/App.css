@@ -4,7 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
-
+/* #root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+} */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +45,24 @@
 .read-the-docs {
   color: #888;
 }
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-animation {
+  animation: scroll-left 30s linear infinite;
+}
+
+/* Hide scrollbars visually */
+/* .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
