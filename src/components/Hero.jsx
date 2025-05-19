@@ -1,39 +1,5 @@
 import { motion } from "framer-motion";
 
-<<<<<<< HEAD
-            <div className="flex justify-center md:justify-start gap-4">
-              <a
-                href="#projects"
-                className="border border-blue-600 text-blue-600 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition"
-              >
-                View Projects
-              </a>
-              <a
-                href="/koteshResumePortfolio.pdf"
-                target="_blank"
-                className="border border-blue-600 text-blue-600 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition"
-              >
-                Download Resume
-              </a>
-            </div>
-          </div>
-  
-          {/* Right: Profile Image */}
-          <div className="md:w-1/2 mb-10 md:mb-0 flex justify-center">
-            <img
-              src="/KoteshPic.jpg"
-              alt="Kotesh"
-              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg"
-            />
-          </div>
-        </div>
-      </section>
-    );
-  }
-  
-  export default Hero;
-  
-=======
 function Hero() {
   return (
     <section
@@ -95,4 +61,3 @@ function Hero() {
 }
 
 export default Hero;
->>>>>>> a6d60c5 (Pushing all pages and skills on hold)
