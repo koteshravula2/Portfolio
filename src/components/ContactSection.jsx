@@ -86,7 +86,7 @@ function ContactSection() {
               I’m currently open to new full-time or freelance opportunities. Whether you have a question or just want to say hi, feel free to reach out — I’ll respond as soon as I can!
             </p>
             <p className="font-medium text-left">
-               Email 📬: <span className="text-blue-600 dark:text-blue-400">koteshravula2@gmail.com</span>
+               Email 📬: <span className="text-blue-600 dark:text-blue-400">koteshravula0@gmail.com</span>
               <br />
               {/* 🌎 Location: Jersey City, NJ */}
               Phone Number 📱: +1 (605)-660-7634

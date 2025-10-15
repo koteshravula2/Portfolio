@@ -31,7 +31,7 @@ function Hero() {
               View Projects
             </a>
             <a
-              href="/koteshResumePortfolio.pdf"
+              href="KoteshSoftwareEngineerDOTNET.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-md font-medium border border-blue-600 text-blue-600 hover:bg-blue-50 transition text-center"
@@ -50,7 +50,7 @@ function Hero() {
           viewport={{ once: false, amount: 0.5 }}
         >
           <img
-            src="/KoteshPic.jpg"
+            src="/MyPhoto.png"
             alt="Kotesh"
             className="w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-white dark:border-gray-800"
           />

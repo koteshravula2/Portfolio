@@ -11,7 +11,7 @@ function Footer() {
 
         <div className="flex justify-center gap-6 text-xl mb-6">
           <a
-            href="mailto:koteshravula2@gmail.com"
+            href="mailto:koteshravula0@gmail.com"
             className="hover:text-blue-400 transition"
             aria-label="Email"
           >

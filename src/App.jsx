@@ -18,7 +18,7 @@ function App() {
       <Header />
       <Hero />
       <About />
-      {/* <SkillsSection /> */}
+      <SkillsSection />
       <ExperienceSection />
       <EducationSection />
       <ProjectsSection />

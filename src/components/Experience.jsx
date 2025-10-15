@@ -2,7 +2,7 @@ function ExperienceSection() {
   const experiences = [
     {
       role: "Software Developer",
-      company: "JCPenney",
+      company: "LimeLightLogic INC",
       period: "Aug 2023 – Present",
       details:
         "Developing frontend modules using React, TypeScript, and Redux. Integrated REST APIs, worked with real-time dashboards, and optimized performance across components. Collaborated within Agile teams and participated in code reviews and sprint demos."
